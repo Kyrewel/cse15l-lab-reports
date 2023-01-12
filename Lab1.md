@@ -43,7 +43,7 @@ ls    - list files\
 cd    - change directory\
 mkdir - make directory\
 ..    - go up a level\
-~     - root directory\ 
+~     - root directory
  
 Play around with more linux commands! 
 
