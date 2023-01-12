@@ -17,7 +17,7 @@ In the terminal, enter the following, replacing the zz with your UCSD
   
 
 After succesfully connecting, you should receive a message like this:
-'''
+'''json
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
