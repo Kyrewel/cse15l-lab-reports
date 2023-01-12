@@ -9,7 +9,7 @@ While technically using vscode isn't necessary, it will make interacting with yo
 * Follow the instructions to download and install it on your computer. 
 
 You should get something like this:
-![image](https://user-images.githubusercontent.com/122554370/212139446-dd7ca208-8d41-42eb-814f-f2581f065385.png)
+[![image](https://user-images.githubusercontent.com/122554370/212139446-dd7ca208-8d41-42eb-814f-f2581f065385.png)](https://user-images.githubusercontent.com/122554370/212159351-1c189b33-2f57-45e7-a7e0-07f867efc092.png)
 
 
 ### SSH connect
@@ -32,27 +32,12 @@ access your connection, so be careful! However in this case you probably can jus
 no repercussions!
 
 After a successful login, you should have something like this!
-```
-# Now on remote server
-Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
-quota: No filesystem specified.
-Hello cs15lwi23zz, you are currently logged into ieng6-203.ucsd.edu
-
-You are using 0% CPU on this system
-
-Cluster Status 
-Hostname     Time    #Users  Load  Averages  
-ieng6-201   23:25:01   0  0.08,  0.17,  0.11
-ieng6-202   23:25:01   1  0.09,  0.15,  0.11
-ieng6-203   23:25:01   1  0.08,  0.15,  0.11
-
-Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
-```
+[![image](https://user-images.githubusercontent.com/122554370/212159353-209562e8-be36-4b7a-a76d-4bd5f338910a.png)
 
 Now you are connected and can use it like any other linux terminal. Play around and try some 
 commands like this!
 
-// add photo here
+[![image](https://user-images.githubusercontent.com/122554370/212159355-3f6efdb4-41b6-4cdf-9ea6-19b2ded8c34e.png)
 
 
 
