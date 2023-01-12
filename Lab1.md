@@ -9,6 +9,7 @@ While technically using vscode isn't necessary, it will make interacting with yo
 * Follow the instructions to download and install it on your computer. 
 
 You should get something like this:
+![image](https://user-images.githubusercontent.com/122554370/212139446-dd7ca208-8d41-42eb-814f-f2581f065385.png)
 
 
 ### SSH connect
@@ -52,21 +53,6 @@ Now you are connected and can use it like any other linux terminal. Play around 
 commands like this!
 
 // add photo here
-
-## Git Pages Tutorial
-Git is a website that is widely used when developing with different people. Getting familiar with
-Git is a useful step on the path to becoming a successful developer!
-
-Go to the github page: https://github.com and create an account. 
-Once you have an account, it should look like this:
-
-
-Let's set up a repository. On the top right, use the plus arrow and make a new repository. Name it
-whatever you'd like. While the settings can be used to edit the repo for your usecase, we don't need
-to change anything for the moment. 
-
-Once you're done, you should have a page like this:
-// insert photo
 
 
 
