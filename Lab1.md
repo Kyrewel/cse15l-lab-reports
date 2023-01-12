@@ -9,7 +9,7 @@ While technically using vscode isn't necessary, it will make interacting with yo
 * Follow the instructions to download and install it on your computer. 
 
 You should get something like this:
-[![image](https://user-images.githubusercontent.com/122554370/212159355-3f6efdb4-41b6-4cdf-9ea6-19b2ded8c34e.png)
+![image](https://user-images.githubusercontent.com/122554370/212159355-3f6efdb4-41b6-4cdf-9ea6-19b2ded8c34e.png)
 
 
 ### SSH connect
@@ -32,12 +32,12 @@ access your connection, so be careful! However in this case you probably can jus
 no repercussions!
 
 After a successful login, you should have something like this!
-[![image](https://user-images.githubusercontent.com/122554370/212159353-209562e8-be36-4b7a-a76d-4bd5f338910a.png)
+![image](https://user-images.githubusercontent.com/122554370/212159353-209562e8-be36-4b7a-a76d-4bd5f338910a.png)
 
 Now you are connected and can use it like any other linux terminal. Play around and try some 
 commands like this!
 
-[![image](https://user-images.githubusercontent.com/122554370/212159355-3f6efdb4-41b6-4cdf-9ea6-19b2ded8c34e.png)
+![image](https://user-images.githubusercontent.com/122554370/212159351-1c189b33-2f57-45e7-a7e0-07f867efc092.png)
 
 
 
