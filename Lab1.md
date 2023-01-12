@@ -39,11 +39,11 @@ commands like this!
 
 ![image](https://user-images.githubusercontent.com/122554370/212159351-1c189b33-2f57-45e7-a7e0-07f867efc092.png)
 
-ls    - list files\
-cd    - change directory\
+ls - list files\
+cd - change directory\
 mkdir - make directory\
-..    - go up a level\
-~     - root directory
+.. - go up a level\
+~  - root directory
  
 Play around with more linux commands! 
 
