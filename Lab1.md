@@ -9,7 +9,7 @@ While technically using vscode isn't necessary, it will make interacting with yo
 * Follow the instructions to download and install it on your computer. 
 
 You should get something like this:
-[![image](https://user-images.githubusercontent.com/122554370/212139446-dd7ca208-8d41-42eb-814f-f2581f065385.png)](https://user-images.githubusercontent.com/122554370/212159351-1c189b33-2f57-45e7-a7e0-07f867efc092.png)
+[![image](https://user-images.githubusercontent.com/122554370/212159355-3f6efdb4-41b6-4cdf-9ea6-19b2ded8c34e.png)
 
 
 ### SSH connect
