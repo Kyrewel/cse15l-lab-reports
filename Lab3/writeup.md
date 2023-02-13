@@ -1,6 +1,6 @@
 # Lab Part 1 - Server
 ## Screenshots
-<img src = "https://user-images.githubusercontent.com/122554370/215673114-affe51c2-782a-4366-9f7e-47fe5b001dd1.png" alt="handler" width="150px">
+<img src = "https://user-images.githubusercontent.com/122554370/215673114-affe51c2-782a-4366-9f7e-47fe5b001dd1.png" alt="handler" width="400px">
 ![Screenshot 2023-01-30 at 9 21 49 PM](https://user-images.githubusercontent.com/122554370/215672655-2bf14fb6-0c5f-44ed-a609-c76581d2f33d.png)
 ### Relevant methods, their arguments, and values
 * `getPath()` - no arguments
