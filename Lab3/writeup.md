@@ -53,7 +53,7 @@ Expected output: {1, 2, 3, 2, 1}\
 ![Test](https://user-images.githubusercontent.com/122554370/215671793-8aa8a989-faac-4883-a4f3-03fe0f9910b7.png)
 You can observe that there is only an error from the input `{1, 2, 3, 4, 5}`, but not from `{1, 2, 3, 2, 1}`.\
 You can see that the error that occurs is that at index 3, an unexpected value occured, aka at least that value is wrong.\
-Using this info, you can walk through the code to discover how this value was stored. \
+Using this info, you can walk through the code to discover how this value was stored. 
 
 
 ### Bug
