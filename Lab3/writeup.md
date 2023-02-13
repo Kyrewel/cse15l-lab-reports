@@ -28,7 +28,7 @@ The `String` text has the argument of the query appended to it.
 ## Reverse in place: 
 ### Failure inducing input:
 Input: array containing {1, 2, 3, 4, 5}.\
-Expected output: {5, 4, 3, 2, 1}\
+Expected output: {5, 4, 3, 2, 1}
 ```java
 @Test
   public void testReverseInPlace_size5() {
