@@ -58,10 +58,10 @@ Using this info, you can walk through the code to discover how this value was st
 
 ### Bug
 ##### Before
-![Screenshot 2023-01-30 at 9 04 12 PM](https://user-images.githubusercontent.com/122554370/215670767-dd063f0d-51a3-4aa1-a769-eed57d50a699.png)
-Walking through the shows that input1[1] was copied from input1[3]. Because of it, input1[1]'s original value cannot be copied.\
+![Screenshot 2023-01-30 at 9 04 12 PM](https://user-images.githubusercontent.com/122554370/215670767-dd063f0d-51a3-4aa1-a769-eed57d50a699.png)\
+Walking through the shows that input1[1] was copied from input1[3]. Because of it, input1[1]'s original value cannot be copied.
 ##### After
-![Screenshot 2023-01-30 at 9 04 44 PM](https://user-images.githubusercontent.com/122554370/215670771-dd1148a0-3f25-4c03-9d8b-126afdf6a3be.png)
+![Screenshot 2023-01-30 at 9 04 44 PM](https://user-images.githubusercontent.com/122554370/215670771-dd1148a0-3f25-4c03-9d8b-126afdf6a3be.png)\
 As a result, we realize that we need to save a temporary copy of input1[1] to effectively swap values with input[3]. 
 
 # Lab Part 3 - What I've Learning
