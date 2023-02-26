@@ -6,7 +6,7 @@ Before the run, there's a few things that need to be in place in order to optimi
 - [ ] Set up SSH keys for ieng6. This allows for instantaneous connection without needing to type the password
 - [ ] Set up .vimrc in order to use your mouse in vim
 - [ ] Have the Lab 7 repo already forked so you have your own repo to push to.
-- [ ] Have the git repo clone link on your clipboard prior to the run.
+- [ ] Have the git repo clone command on your clipboard prior to the run.
 - [ ] Have the compile/run JUnit commands in a separate document on the side, ready to be copy pasted. Again, removing the need of more typing. (use split screen to not need to move from window to window)
 - [ ] Make sure that the last command on your local terminal was the ssh login, so that you can just use the <up> arrow and enter to login. 
 
@@ -14,7 +14,7 @@ Before the run, there's a few things that need to be in place in order to optimi
 These are the steps that I took when running. 
   
 1. `<up><enter>`: enters into ieng6
-2. `git clone [<cmd> + v] <enter>`: clones the repo
+2. `[<cmd> + v] <enter>`: clones the repo
 3. `cd l<tab>`: enters into the lab7 directory
 4. (Go to document and highlight commands)`[<ctrl> + c]`: (Use mouse and highlight the compile/run commands) 
 5. (Click back to terminal) `[<ctrl> + v] <enter>`: runs the JUnit Tests
