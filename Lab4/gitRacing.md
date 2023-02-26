@@ -11,16 +11,16 @@ Before the run, there's a few things that need to be in place in order to optimi
 - [ ] Make sure that the last command on your local terminal was the ssh login, so that you can just use the <up> arrow and enter to login. 
 
 ## Execution
-These are the steps that I took when running. 
+These are the steps that I took when running. If you are not on a mac, use `<ctrl>` instead of `<cmd>`
   
 1. `<up><enter>`: enters into ieng6
 2. `[<cmd> + v] <enter>`: clones the repo
 3. `cd l<tab>`: enters into the lab7 directory
-4. (Go to document and highlight commands)`[<ctrl> + c]`: (Use mouse and highlight the compile/run commands) 
-5. (Click back to terminal) `[<ctrl> + v] <enter>`: runs the JUnit Tests
+4. (Go to document and highlight commands)`[<cmd> + c]`: (Use mouse and highlight the compile/run commands) 
+5. (Click back to terminal) `[<cmd> + v] <enter>`: runs the JUnit Tests
 6. `vim L<tab>.<tab><enter>`: opens the ListExamples file in vim
 7. (click on the '1' on row 43)`a<backspace>2<esc>:wq<enter>`: changes the error, writes to file, and quits
-8. `[<ctrl> + v] <enter>`: runs the JUnit Tests
+8. `[<cmd> + v] <enter>`: runs the JUnit Tests
 9. `git add .<enter>`: adds the edited files to git
 10. `git commit -m "a"<enter>`: commits the files
 11. `git push`<enter>: pushes edits to your repo
