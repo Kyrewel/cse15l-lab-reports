@@ -16,7 +16,7 @@ These are the steps that I took when running.
 1. `<up><enter>`: enters into ieng6
 2. `git clone [<cmd> + v] <enter>`: clones the repo
 3. `cd l<tab>`: enters into the lab7 directory
-4. `[<ctrl> + c]`: (Use mouse and highlight the compile/run commands) 
+4. (Go to document and highlight commands)`[<ctrl> + c]`: (Use mouse and highlight the compile/run commands) 
 5. (Click back to terminal) `[<ctrl> + v] <enter>`: runs the JUnit Tests
 6. `vim L<tab>.<tab><enter>`: opens the ListExamples file in vim
 7. (click on the '1' on row 43)`a<backspace>2<esc>:wq<enter>`: changes the error, writes to file, and quits
