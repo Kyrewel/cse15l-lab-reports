@@ -13,7 +13,7 @@ Before the run, there's a few things that need to be in place in order to optimi
 ## Execution
 These are the steps that I took when running. 
   
-1. <up><enter>: enters into ieng6
+1. `<up><enter>`: enters into ieng6
 2. git clone [<cmd> + v] <enter>: clones the repo
 3. cd l<tab>: enters into the lab7 directory
 4. [<ctrl> + c]: (Use mouse and highlight the compile/run commands) 
