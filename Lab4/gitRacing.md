@@ -39,9 +39,9 @@ These are the steps that I took when running. If you are not on a mac, use `<ctr
 8. `[<cmd> + v] <enter>`: runs the JUnit Tests\
   <img src = "https://user-images.githubusercontent.com/122554370/221446408-323551d6-e0e7-4d71-bbd7-e166d145a08d.png" alt="altText" width="400px"/>
   
-9.  `git add .<enter>`: adds the edited files to git\
-10. `git commit -m "a"<enter>`: commits the files\
-11. `git push`<enter>: pushes edits to your repo\
+9.  `git add .<enter>`: adds the edited files to git
+10. `git commit -m "a"<enter>`: commits the files
+11. `git push`<enter>: pushes edits to your repo
   <img src = "https://user-images.githubusercontent.com/122554370/221446418-a89a73c1-1b1d-4b61-a618-01bc20b3e5ce.png" alt="altText" width="400px"/>
   
 ... and TIME!\
