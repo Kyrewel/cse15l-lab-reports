@@ -41,8 +41,8 @@ These are the steps that I took when running. If you are not on a mac, use `<ctr
   
 9.  `git add .<enter>`: adds the edited files to git
 10. `git commit -m "a"<enter>`: commits the files
-11. `git push`<enter>: pushes edits to your repo
-\
+11. `git push`<enter>: pushes edits to your repo\
+  Image has add, commit, and push:\
 <img src = "https://user-images.githubusercontent.com/122554370/221446418-a89a73c1-1b1d-4b61-a618-01bc20b3e5ce.png" alt="altText" width="400px"/>
   
 ... and TIME!\
