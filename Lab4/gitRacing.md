@@ -25,10 +25,11 @@ These are the steps that I took when running. If you are not on a mac, use `<ctr
 3. `cd l<tab>`: enters into the lab7 directory\
   <img src = "https://user-images.githubusercontent.com/122554370/221446210-9d8a2b04-b12d-4eb6-a5e3-a4123ffa2907.png" alt="altText" width="400px"/>
   
-4. (Go to document and highlight commands)`[<cmd> + c]`: (Use mouse and highlight the compile/run commands) \
+4. (Go to document and highlight commands)`[<cmd> + c]`: (Use mouse and highlight the compile/run commands)\
   <img src = "https://user-images.githubusercontent.com/122554370/221446538-bbcaed35-0b4d-487f-a4b5-8e209764b5d4.png" alt="altText" width="400px"/>
   
-5. (Click back to terminal) `[<cmd> + v] <enter>`: runs the JUnit Tests\<img src = "https://user-images.githubusercontent.com/122554370/221446323-a2117d54-c3fb-46a3-a691-2f91dcf65c5d.png" alt="altText" width="400px"/>
+5. (Click back to terminal) `[<cmd> + v] <enter>`: runs the JUnit Tests\
+  <img src = "https://user-images.githubusercontent.com/122554370/221446323-a2117d54-c3fb-46a3-a691-2f91dcf65c5d.png" alt="altText" width="400px"/>
   
 6. `vim L<tab>.<tab><enter>`: opens the ListExamples file in vim\
   <img src = "https://user-images.githubusercontent.com/122554370/221446378-809c42d3-79b3-4726-bc7c-6a6d71f0b0fe.png" alt="altText" width="400px"/>
