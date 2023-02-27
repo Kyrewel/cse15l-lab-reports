@@ -3,12 +3,12 @@ note: these instructions are SPECIFIC to the CSE 15L race done in lab in Winter 
 
 ## Set Up
 Before the run, there's a few things that need to be in place in order to optimize the run.
-- [ ]  Set up SSH keys for ieng6. This allows for instantaneous connection without needing to type the password
-- [ ]  Set up .vimrc in order to use your mouse in vim
-- [ ]  Have the Lab 7 repo already forked so you have your own repo to push to.
-- [ ]  Have the git repo clone command on your clipboard prior to the run.
-- [ ]  Have the compile/run JUnit commands in a separate document on the side, ready to be copy pasted. Again, removing the need of more typing. (use split screen to not need to move from window to window)
-- [ ]  Make sure that the last command on your local terminal was the ssh login, so that you can just use the <up> arrow and enter to login. 
+[ ]  Set up SSH keys for ieng6. This allows for instantaneous connection without needing to type the password
+[ ]  Set up .vimrc in order to use your mouse in vim
+[ ]  Have the Lab 7 repo already forked so you have your own repo to push to.
+[ ]  Have the git repo clone command on your clipboard prior to the run.
+[ ]  Have the compile/run JUnit commands in a separate document on the side, ready to be copy pasted. Again, removing the need of more typing. (use split screen to not need to move from window to window)
+[ ]  Make sure that the last command on your local terminal was the ssh login, so that you can just use the <up> arrow and enter to login. 
 
 ## Copy paste page:
   <img src = "https://user-images.githubusercontent.com/122554370/221446146-20d33d27-659e-4786-bc29-b352663f780f.png" alt="altText" width="400px"/>
@@ -41,7 +41,7 @@ These are the steps that I took when running. If you are not on a mac, use `<ctr
   
 9.  `git add .<enter>`: adds the edited files to git
 10. `git commit -m "a"<enter>`: commits the files
-11. `git push`<enter>: pushes edits to your repo
+11. `git push`<enter>: pushes edits to your repo\
   <img src = "https://user-images.githubusercontent.com/122554370/221446418-a89a73c1-1b1d-4b61-a618-01bc20b3e5ce.png" alt="altText" width="400px"/>
   
 ... and TIME!\
