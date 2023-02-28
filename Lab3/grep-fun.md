@@ -50,7 +50,7 @@ Here's the thing. I REALLY want to find all the places this substring shows up, 
 ./written_2/travel_guides/berlitz1/WhereToItaly.txt:        (or Ca’ Grande), while gondoliers claim Othello’s Desdemona lived in
 ./written_2/travel_guides/berlitz1/WhereToFrance.txt:        Saint-Wandrille, Le Bec-Hellouin, and Caen, culminating in their
 ./written_2/travel_guides/berlitz1/WhereToHongKong.txt:        the local people smile “hello” and, if you’re lucky, point you to a
-```bash
+```
 <img width="1000" alt="Screenshot 2023-02-27 at 9 36 38 PM" src="https://user-images.githubusercontent.com/122554370/221768666-28a989cf-b39e-4748-9a7d-21c525a0c6a4.png">
   <br>
   Here, I was like, "There's got to be more people who say hello". And making it case insensitive indeed showed more substrings of it!
