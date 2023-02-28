@@ -104,7 +104,10 @@ Well, maybe I don't need the strings themselves, but just the files containing t
   <br>
   I lost my water bottle somewhere on my journey! At least I can search through my "diary entries" to know where I last remembered to write about it. Here you can see I use the flag to find where in my diary (ahem I mean files) I have "water bottle" as a substring. Oh nvm. Ah there it is. It was on my desk this whole time.
 <br>
-```
+  
+<img width="1000" alt="Screenshot 2023-02-27 at 9 39 29 PM" src="https://user-images.githubusercontent.com/122554370/221769066-53a0ea23-de6b-4c2f-b3c3-c4f18ebd7c14.png">
+  <br>
+  ```
 grep -r -l "Taiwan"
 ./written_2/non-fiction/OUP/Berk/ch2.txt
 ./written_2/non-fiction/OUP/Abernathy/ch1.txt
@@ -114,9 +117,7 @@ grep -r -l "Taiwan"
 ./written_2/travel_guides/berlitz2/China-History.txt
 ./written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt
 ```
-<br> 
-  
-<img width="1000" alt="Screenshot 2023-02-27 at 9 39 29 PM" src="https://user-images.githubusercontent.com/122554370/221769066-53a0ea23-de6b-4c2f-b3c3-c4f18ebd7c14.png">
+
   <br>
 I kinda wanna learn more about Taiwan. Let's see which texts have anything remotely related. I guess using '-l' can be pretty helpful in cases like these where you just need to find what files to read. 
   <br>
