@@ -6,7 +6,7 @@ Inspired by <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep
 ## Recursive searching for matching patterns. 
 Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
 Have you ever been in a directory and needed to search for something, but didn't want to individually grep each file? Using the option `-r`, you can use grep to recursively search through your whole current directory.
-```
+```bash
   grep -r "hello"
 ./written_2/travel_guides/berlitz1/WhereToItaly.txt:        (or Ca’ Grande), while gondoliers claim Othello’s Desdemona lived in
 ./written_2/travel_guides/berlitz1/WhereToHongKong.txt:        the local people smile “hello” and, if you’re lucky, point you to a
@@ -15,7 +15,7 @@ Have you ever been in a directory and needed to search for something, but didn't
 <br>
 Here I wanted to try to find files of where people say hello. And it went through all the subdirectories of written_2 to search for this substring.
   
-```
+```bash
   grep -r "huh"
 Binary file ./.git/objects/pack/pack-b98cb6a4ca64cc7b2944f0fa07d3e03927d66064.pack matches
 ./written_2/non-fiction/OUP/Berk/ch2.txt:Child: Uh-huh. Dad made cuts in it with a razor. He made a face too. That was funny.66
@@ -43,20 +43,20 @@ Well, the matches might be a little bit hard to find... Maybe something that cha
 ## Case insensitive search
 Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
 Here's the thing. I REALLY want to find all the places this substring shows up, but it misses it if casing is not exactly how I specified. Using `-i`, you can find all occurances regardless of casing. 
-```
+```bash
   grep -r -i "hello"
 ./written_2/non-fiction/OUP/Berk/CH4.txt:Children’s earliest efforts at make-believe also reveal how challenging they ﬁnd the task of detaching thought from reality. Initially, object substitutions are closely tied to the real things they represent. Toddlers between ages 1 1/2 and 2 generally use only realistic-looking objects while pretending—a toy telephone to talk into or a cup to drink from.9 Once, I handed a 21-month-old a small wooden block, put another to my ear, and called her on the phone: “Ring! Ring! Hello, Lynnay!” She responded by throwing down the block and turning to another activity. Yet when given a plastic replica of a push-button phone, Lynnay readily put the receiver to her ear and pretended to converse.
 ./written_2/non-fiction/OUP/Berk/CH4.txt:As children engage in play talk, they not only build their vocabularies but correct one another’s errors, either directly or by demonstrating the acceptable way to speak. In one instance, a kindergartner enacting a telephone conversation said, “Hello, come to my house, please.” Her play partner quickly countered with appropriate telephone greeting behavior: “No, ﬁrst you’ve got to say ‘How are you? What are you doing?’”28
 ./written_2/travel_guides/berlitz1/WhereToItaly.txt:        (or Ca’ Grande), while gondoliers claim Othello’s Desdemona lived in
 ./written_2/travel_guides/berlitz1/WhereToFrance.txt:        Saint-Wandrille, Le Bec-Hellouin, and Caen, culminating in their
 ./written_2/travel_guides/berlitz1/WhereToHongKong.txt:        the local people smile “hello” and, if you’re lucky, point you to a
-```
+```bash
 <img width="1000" alt="Screenshot 2023-02-27 at 9 36 38 PM" src="https://user-images.githubusercontent.com/122554370/221768666-28a989cf-b39e-4748-9a7d-21c525a0c6a4.png">
   <br>
   Here, I was like, "There's got to be more people who say hello". And making it case insensitive indeed showed more substrings of it!
   <br>
   
-```
+```bash
   grep -r -i "huh"  
 Binary file ./.git/objects/pack/pack-b98cb6a4ca64cc7b2944f0fa07d3e03927d66064.pack matches
 ./written_2/non-fiction/OUP/Berk/ch2.txt:Child: Uh-huh. Dad made cuts in it with a razor. He made a face too. That was funny.66
@@ -74,14 +74,15 @@ Binary file ./.git/objects/pack/pack-b98cb6a4ca64cc7b2944f0fa07d3e03927d66064.pa
 ## Checking for full words
 Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
 Well, I think I might have searched for too much. I want to make sure that only the word I search shows up, and not all substrings with it. Use the `-w` to only show occurances of the word you specified. 
-  ```grep -r -w "hello"
+  ```bash
+  grep -r -w "hello"
 ./written_2/travel_guides/berlitz1/WhereToHongKong.txt:        the local people smile “hello” and, if you’re lucky, point you to a
   ```
 <img width="1000" alt="Screenshot 2023-02-27 at 9 37 12 PM" src="https://user-images.githubusercontent.com/122554370/221768746-e3a84e34-7acf-4d5a-9280-eae566e26100.png">
   <br>
   I'm pretty sure that 'Bec-Hellouin' isn't a common greeting, but hey we can make it a thing right? Well, for now I want to exclude this. However, notice how it also got rid of the entries with punctuation, as the delimiters for what is a word may not be what you expect!
   <br>
-  ```
+  ```bash
   grep -r -w "huh"
 ./written_2/non-fiction/OUP/Berk/ch2.txt:Child: Uh-huh. Dad made cuts in it with a razor. He made a face too. That was funny.66
   ```
@@ -94,7 +95,7 @@ Well, I think I might have searched for too much. I want to make sure that only 
 Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
 Well, maybe I don't need the strings themselves, but just the files containing them. Using `-l` can display just that. No need for that extra text to be displayed on the screen if you don't need it!
   <br>
-  ```
+  ```bash
   grep -r -l "water bottle"
 ./written_2/travel_guides/berlitz1/WhereToIndia.txt
 ./written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
