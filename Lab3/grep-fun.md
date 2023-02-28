@@ -1,6 +1,6 @@
 # Playing Around With Grep
-Thought grep was too bording? Here's some fun options to play around with in grep!\
-
+Thought grep was too bording? Here's some fun options to play around with in grep!
+<br>
 Inspired by <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com's practical unix grep command examples<a/>
 
 ## Recursive searching for matching patterns. 
