@@ -85,7 +85,6 @@ Well, I think I might have searched for too much. I want to make sure that only 
   grep -r -w "huh"
 ./written_2/non-fiction/OUP/Berk/ch2.txt:Child: Uh-huh. Dad made cuts in it with a razor. He made a face too. That was funny.66
   ```
-  
   <br>
 <img width="1000" alt="Screenshot 2023-02-27 at 9 37 23 PM" src="https://user-images.githubusercontent.com/122554370/221768750-6c1261f4-8ae1-46cc-a578-380d83b2bb2a.png">
   <br>
@@ -94,11 +93,13 @@ Well, I think I might have searched for too much. I want to make sure that only 
 ## Displaying files with the matching pattern
 Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
 Well, maybe I don't need the strings themselves, but just the files containing them. Using `-l` can display just that. No need for that extra text to be displayed on the screen if you don't need it!
+  <br>
   ```
   grep -r -l "water bottle"
 ./written_2/travel_guides/berlitz1/WhereToIndia.txt
 ./written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
   ```
+  <br>
 <img width="1000" alt="Screenshot 2023-02-27 at 9 38 50 PM" src="https://user-images.githubusercontent.com/122554370/221769064-de787970-4da3-4c95-8501-2de846635afb.png">
   <br>
   I lost my water bottle somewhere on my journey! At least I can search through my "diary entries" to know where I last remembered to write about it. Here you can see I use the flag to find where in my diary (ahem I mean files) I have "water bottle" as a substring. Oh nvm. Ah there it is. It was on my desk this whole time.
