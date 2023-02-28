@@ -95,7 +95,7 @@ Well, I think I might have searched for too much. I want to make sure that only 
 Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
 Well, maybe I don't need the strings themselves, but just the files containing them. Using `-l` can display just that. No need for that extra text to be displayed on the screen if you don't need it!
   <br>
-  ```bash
+  ```java
   grep -r -l "water bottle"
 ./written_2/travel_guides/berlitz1/WhereToIndia.txt
 ./written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
