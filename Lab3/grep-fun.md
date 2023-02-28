@@ -81,10 +81,11 @@ Well, I think I might have searched for too much. I want to make sure that only 
   <br>
   I'm pretty sure that 'Bec-Hellouin' isn't a common greeting, but hey we can make it a thing right? Well, for now I want to exclude this. However, notice how it also got rid of the entries with punctuation, as the delimiters for what is a word may not be what you expect!
   <br>
-  ```
-  grep -r -w "huh"
+```
+grep -r -w "huh"
 ./written_2/non-fiction/OUP/Berk/ch2.txt:Child: Uh-huh. Dad made cuts in it with a razor. He made a face too. That was funny.66
-  ```
+```
+  <br>
 <img width="1000" alt="Screenshot 2023-02-27 at 9 37 23 PM" src="https://user-images.githubusercontent.com/122554370/221768750-6c1261f4-8ae1-46cc-a578-380d83b2bb2a.png">
   <br>
   You see that previously, 'huh' matched to things like 'zhuhai' which isn't what I'm looking for. This clarifies that, leaving only the superior substring left. 
