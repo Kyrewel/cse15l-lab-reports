@@ -107,7 +107,8 @@ Well, maybe I don't need the strings themselves, but just the files containing t
   
 <img width="1000" alt="Screenshot 2023-02-27 at 9 39 29 PM" src="https://user-images.githubusercontent.com/122554370/221769066-53a0ea23-de6b-4c2f-b3c3-c4f18ebd7c14.png">
   <br>
-  ```
+  
+```bash
 grep -r -l "Taiwan"
 ./written_2/non-fiction/OUP/Berk/ch2.txt
 ./written_2/non-fiction/OUP/Abernathy/ch1.txt
