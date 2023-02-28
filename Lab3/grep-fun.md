@@ -1,5 +1,7 @@
 # Playing Around With Grep
-Thought grep was too bording? Here's some fun options to play around with in grep!
+Thought grep was too bording? Here's some fun options to play around with in grep!\
+
+Inspired by <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com's practical unix grep command examples<a/>
 
 ## Recursive searching for matching patterns. 
 Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
@@ -40,5 +42,3 @@ Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-com
 Here's another fun one. Using `-o`, you can specify a pattern, and grep will output all the places and the word that matches the pattern.
 <img width="1000" alt="Screenshot 2023-02-27 at 9 47 19 PM" src="https://user-images.githubusercontent.com/122554370/221769108-02465e32-3cb4-43a0-bba4-ddc6b2483124.png">
 <img width="1000" alt="Screenshot 2023-02-27 at 9 49 09 PM" src="https://user-images.githubusercontent.com/122554370/221769112-1c4db070-7061-4b64-8722-fa5ef7653d70.png">
-
-Inspired by <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com's practical unix grep command examples<a/>
