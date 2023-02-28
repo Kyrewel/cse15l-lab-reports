@@ -4,7 +4,7 @@ Thought grep was too bording? Here's some fun options to play around with in gre
 Inspired by <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com's practical unix grep command examples<a/>
 
 ## Recursive searching for matching patterns. 
-Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
+Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/><br>
 Have you ever been in a directory and needed to search for something, but didn't want to individually grep each file? Using the option `-r`, you can use grep to recursively search through your whole current directory.
 ```bash
   grep -r "hello"
@@ -30,7 +30,7 @@ Here, I was curious to see where "huh" would appear, as you would think it's jus
   <br>
 
 ## Adding colors
-Source: <a href="https://linuxcommando.blogspot.com/2007/10/grep-with-color-output.html">linuxcommando.blogspot.com<a/>
+Source: <a href="https://linuxcommando.blogspot.com/2007/10/grep-with-color-output.html">linuxcommando.blogspot.com<a/><br>
 Well, the matches might be a little bit hard to find... Maybe something that changes the text color would make it easier to read. Well, you can use `export GREP_OPTIONS='--color=auto'` to do just that! You can also specify specific colors. I would highly recommend looking into bashrc and more customization options. 
 
 <img width="1000" alt="Screenshot 2023-02-27 at 9 36 03 PM" src="https://user-images.githubusercontent.com/122554370/221768533-6f13fb6a-c4fa-4c60-9974-da9a3036440c.png">
@@ -41,7 +41,7 @@ Well, the matches might be a little bit hard to find... Maybe something that cha
 
 
 ## Case insensitive search
-Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
+Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/><br>
 Here's the thing. I REALLY want to find all the places this substring shows up, but it misses it if casing is not exactly how I specified. Using `-i`, you can find all occurances regardless of casing. 
 ```bash
   grep -r -i "hello"
@@ -72,7 +72,7 @@ Binary file ./.git/objects/pack/pack-b98cb6a4ca64cc7b2944f0fa07d3e03927d66064.pa
 
 
 ## Checking for full words
-Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
+Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/><br>
 Well, I think I might have searched for too much. I want to make sure that only the word I search shows up, and not all substrings with it. Use the `-w` to only show occurances of the word you specified. 
   ```bash
   grep -r -w "hello"
@@ -93,7 +93,7 @@ Well, I think I might have searched for too much. I want to make sure that only 
   You see that previously, 'huh' matched to things like 'zhuhai' which isn't what I'm looking for. This clarifies that, leaving only the superior substring left. 
 
 ## Displaying files with the matching pattern
-Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
+Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/><br>
 Well, maybe I don't need the strings themselves, but just the files containing them. Using `-l` can display just that. No need for that extra text to be displayed on the screen if you don't need it!
   <br>
   ```bash
@@ -126,7 +126,7 @@ I kinda wanna learn more about Taiwan. Let's see which texts have anything remot
   <br>
 
 ## Show only the matched string
-Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
+Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/><br>
 Here's another fun one. Using `-o`, you can specify a pattern, and grep will output all the places and the word that matches the pattern. For the sake of not having the code block being super long, I've just included screenshots of these. 
 <img width="1000" alt="Screenshot 2023-02-27 at 9 47 19 PM" src="https://user-images.githubusercontent.com/122554370/221769108-02465e32-3cb4-43a0-bba4-ddc6b2483124.png">
   <br>
