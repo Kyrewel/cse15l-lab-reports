@@ -54,6 +54,16 @@ Here's the thing. I REALLY want to find all the places this substring shows up, 
   <br>
   Here, I was like, "There's got to be more people who say hello". And making it case insensitive indeed showed more substrings of it!
   <br>
+  
+```
+  grep -r -i "huh"  
+Binary file ./.git/objects/pack/pack-b98cb6a4ca64cc7b2944f0fa07d3e03927d66064.pack matches
+./written_2/non-fiction/OUP/Berk/ch2.txt:Child: Uh-huh. Dad made cuts in it with a razor. He made a face too. That was funny.66
+./written_2/travel_guides/berlitz1/WhereToJapan.txt:        The superbly landscaped Shuhekein pond garden is a
+./written_2/travel_guides/berlitz1/WhereToHongKong.txt:        Special Economic Zone of Zhuhai, is becoming something like a boomtown
+./written_2/travel_guides/berlitz2/China-WhereToGo.txt:Hohhot (Huhehot)
+```
+  
 <img width="1000" alt="Screenshot 2023-02-27 at 9 36 51 PM" src="https://user-images.githubusercontent.com/122554370/221768669-03dbb928-9cf1-4109-bc61-9661bd8020d8.png">
   <br>
   And I might as well repeat it with 'huh' to see if we can make this word more popular than it already is. 
@@ -63,11 +73,17 @@ Here's the thing. I REALLY want to find all the places this substring shows up, 
 ## Checking for full words
 Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
 Well, I think I might have searched for too much. I want to make sure that only the word I search shows up, and not all substrings with it. Use the `-w` to only show occurances of the word you specified. 
+  ```grep -r -w "hello"
+./written_2/travel_guides/berlitz1/WhereToHongKong.txt:        the local people smile “hello” and, if you’re lucky, point you to a
+  ```
 <img width="1000" alt="Screenshot 2023-02-27 at 9 37 12 PM" src="https://user-images.githubusercontent.com/122554370/221768746-e3a84e34-7acf-4d5a-9280-eae566e26100.png">
   <br>
   I'm pretty sure that 'Bec-Hellouin' isn't a common greeting, but hey we can make it a thing right? Well, for now I want to exclude this. However, notice how it also got rid of the entries with punctuation, as the delimiters for what is a word may not be what you expect!
   <br>
-  
+  ```
+  grep -r -w "huh"
+./written_2/non-fiction/OUP/Berk/ch2.txt:Child: Uh-huh. Dad made cuts in it with a razor. He made a face too. That was funny.66
+  ```
 <img width="1000" alt="Screenshot 2023-02-27 at 9 37 23 PM" src="https://user-images.githubusercontent.com/122554370/221768750-6c1261f4-8ae1-46cc-a578-380d83b2bb2a.png">
   <br>
   You see that previously, 'huh' matched to things like 'zhuhai' which isn't what I'm looking for. This clarifies that, leaving only the superior substring left. 
@@ -75,10 +91,25 @@ Well, I think I might have searched for too much. I want to make sure that only 
 ## Displaying files with the matching pattern
 Source: <a href="https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/"> thegeekstuff.com<a/>\
 Well, maybe I don't need the strings themselves, but just the files containing them. Using `-l` can display just that. No need for that extra text to be displayed on the screen if you don't need it!
+  ```
+  grep -r -l "water bottle"
+./written_2/travel_guides/berlitz1/WhereToIndia.txt
+./written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
+  ```
 <img width="1000" alt="Screenshot 2023-02-27 at 9 38 50 PM" src="https://user-images.githubusercontent.com/122554370/221769064-de787970-4da3-4c95-8501-2de846635afb.png">
   <br>
   I lost my water bottle somewhere on my journey! At least I can search through my "diary entries" to know where I last remembered to write about it. Here you can see I use the flag to find where in my diary (ahem I mean files) I have "water bottle" as a substring. Oh nvm. Ah there it is. It was on my desk this whole time.
   <br>
+  ```
+  grep -r -l "Taiwan"      
+./written_2/non-fiction/OUP/Berk/ch2.txt
+./written_2/non-fiction/OUP/Abernathy/ch1.txt
+./written_2/non-fiction/OUP/Abernathy/ch15.txt
+./written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
+./written_2/travel_guides/berlitz2/China-WhereToGo.txt
+./written_2/travel_guides/berlitz2/China-History.txt
+./written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt
+  ```
 <img width="1000" alt="Screenshot 2023-02-27 at 9 39 29 PM" src="https://user-images.githubusercontent.com/122554370/221769066-53a0ea23-de6b-4c2f-b3c3-c4f18ebd7c14.png">
   <br>
 I kinda wanna learn more about Taiwan. Let's see which texts have anything remotely related. I guess using '-l' can be pretty helpful in cases like these where you just need to find what files to read. 
